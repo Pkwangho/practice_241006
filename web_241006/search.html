@@ -4,18 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
+    <title>Search Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="search-container">
-        <h2>Google Style Search</h2>
-        <form id="search-form">
-            <input type="text" placeholder="Search" required>
-            <button type="submit">Search</button>
-        </form>
-    </div>
+    <header>
+    </header>
+
+    <section class="search-content">
+        <h2>Search for Something</h2>
+        <div class="search-bar-container">
+            <form id="search-form">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <!-- 로그인 및 메인 페이지로 가는 링크 추가 (검색 폼 아래) -->
+        <div class="navigation-links">
+            <p><a href="login.html">Go to Login Page</a></p>
+            <p><a href="main.html">Go to Main Page</a></p>
+        </div>
+    </section>
+
 </body>
 
 </html>

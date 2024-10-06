@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form id="login-form">
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-        </form>
-        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
-        <p>Or go to <a href="main.html">Main Page</a> directly</p>
-        <p>Need to search? <a href="search.html">Search Page</a></p> <!-- 검색 페이지로 가는 링크 추가 -->
+  <div class="login-container">
+    <!-- 우주 사진 추가 -->
+    <div class="image-container">
+      <img src="space.jpg" alt="Space Image" class="space-image">
     </div>
 
-    <script src="main.js"></script>
-</body>
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    <p>Or go to <a href="main.html">Main Page</a> directly</p>
+    <p>Need to search? <a href="search.html">Search Page</a></p>
+  </div>
 
+  <script src="main.js"></script>
+</body>
 </html>
